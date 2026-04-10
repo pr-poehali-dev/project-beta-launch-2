@@ -21,10 +21,10 @@ export default function Header({ className }: HeaderProps) {
             Заявка
           </a>
           <a
-            href="tel:+78612000000"
+            href="tel:+375445978999"
             className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm font-bold"
           >
-            +7 (861) 200-00-00
+            +375 (44) 597-89-99
           </a>
         </nav>
       </div>

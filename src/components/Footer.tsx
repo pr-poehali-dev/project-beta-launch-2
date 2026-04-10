@@ -37,18 +37,11 @@ export default function Footer() {
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
                 <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Контакты</h3>
-                <p className="text-white text-sm sm:text-base">г. Краснодар</p>
                 <a
-                  href="tel:+78612000000"
+                  href="tel:+375445978999"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  +7 (861) 200-00-00
-                </a>
-                <a
-                  href="mailto:info@metalstroy-krd.ru"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  info@metalstroy-krd.ru
+                  +375 (44) 597-89-99
                 </a>
               </div>
             </div>
