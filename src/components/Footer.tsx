@@ -9,53 +9,54 @@ export default function Footer() {
           <div className="bg-neutral-900 py-4 sm:py-6 lg:py-8 px-4 sm:px-6 h-full w-full flex flex-col justify-between">
             <div className="flex shrink-0 gap-8 sm:gap-12 lg:gap-20">
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">О нас</h3>
+                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Услуги</h3>
                 <a
-                  href="#projects"
+                  href="#"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Проекты
+                  Навесы
                 </a>
                 <a
-                  href="#mission"
+                  href="#"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Миссия
+                  Ворота и заборы
                 </a>
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Связаться
+                  Беседки
+                </a>
+                <a
+                  href="#"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  Козырьки
                 </a>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Обучение</h3>
+                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Контакты</h3>
+                <p className="text-white text-sm sm:text-base">г. Краснодар</p>
                 <a
-                  href="#news"
+                  href="tel:+78612000000"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Новости
+                  +7 (861) 200-00-00
                 </a>
                 <a
-                  href="#learn"
+                  href="mailto:info@metalstroy-krd.ru"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Курсы
-                </a>
-                <a
-                  href="#publications"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Статьи
+                  info@metalstroy-krd.ru
                 </a>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
               <h1 className="text-[18vw] sm:text-[16vw] lg:text-[14vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight">
-                LUMINO
+                МЕТАЛЛ
               </h1>
-              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} Lumino</p>
+              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} МеталлСтрой Краснодар</p>
             </div>
           </div>
         </div>
