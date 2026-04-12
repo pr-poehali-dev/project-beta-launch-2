@@ -27,11 +27,11 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-black/40 z-[5]" />
       <div className="relative z-10 text-center text-white px-6">
-        <p className="text-sm md:text-base uppercase tracking-widest mb-4 opacity-80">Краснодар и Краснодарский край</p>
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-tight">
+        <p className="text-xs sm:text-sm md:text-base uppercase tracking-widest mb-3 sm:mb-4 opacity-80">Краснодар и Краснодарский край</p>
+        <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-4 sm:mb-6 leading-tight">
           НАВЕСЫ<br />И МЕТАЛЛО-<br />КОНСТРУКЦИИ
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-8">
+        <p className="text-base sm:text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-6 sm:mb-8 px-2 sm:px-0">
           Изготовим и установим любые металлоконструкции под ключ — от навеса для авто до промышленных сооружений
         </p>
         <a
